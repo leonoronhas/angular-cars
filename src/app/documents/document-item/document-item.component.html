@@ -1,0 +1,12 @@
+<div
+  style="display: flex; justify-content: space-between; align-items: center"
+  class="list-group-item clearfix documentDiv"
+  [routerLink]="['/cars', document?.id]"
+  routerLinkActive="active"
+>
+  <img
+    [src]="document.url"
+    class="image-responsive"
+    style="max-width: 50%; max-height: min-content"
+  />
+</div>
